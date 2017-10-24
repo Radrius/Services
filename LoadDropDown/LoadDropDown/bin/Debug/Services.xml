@@ -16,21 +16,9 @@
     </xs:element>
   </xs:schema>
   <Services>
-    <ServiceName>Store_Combo</ServiceName>
+    <ServiceName>Fax</ServiceName>
   </Services>
   <Services>
-    <ServiceName>Store_ComboVersion</ServiceName>
-  </Services>
-  <Services>
-    <ServiceName>Store_ItemReference</ServiceName>
-  </Services>
-  <Services>
-    <ServiceName>Store_MenuItem</ServiceName>
-  </Services>
-  <Services>
-    <ServiceName>a new service</ServiceName>
-  </Services>
-  <Services>
-    <ServiceName>tabernak</ServiceName>
+    <ServiceName>Infrared monitor service</ServiceName>
   </Services>
 </NewDataSet>

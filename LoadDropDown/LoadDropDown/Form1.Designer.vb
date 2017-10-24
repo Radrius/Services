@@ -22,23 +22,16 @@ Partial Class Form1
 	'Do not modify it using the code editor.
 	<System.Diagnostics.DebuggerStepThrough()> _
 	Private Sub InitializeComponent()
-		Me.ComboBox1 = New System.Windows.Forms.ComboBox()
 		Me.Button1 = New System.Windows.Forms.Button()
 		Me.TextBox1 = New System.Windows.Forms.TextBox()
 		Me.Label1 = New System.Windows.Forms.Label()
 		Me.ListBox1 = New System.Windows.Forms.ListBox()
 		Me.Button2 = New System.Windows.Forms.Button()
+		Me.Label2 = New System.Windows.Forms.Label()
+		Me.Label3 = New System.Windows.Forms.Label()
+		Me.Label4 = New System.Windows.Forms.Label()
 		Me.Button3 = New System.Windows.Forms.Button()
 		Me.SuspendLayout()
-		'
-		'ComboBox1
-		'
-		Me.ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList
-		Me.ComboBox1.FormattingEnabled = True
-		Me.ComboBox1.Location = New System.Drawing.Point(12, 12)
-		Me.ComboBox1.Name = "ComboBox1"
-		Me.ComboBox1.Size = New System.Drawing.Size(379, 21)
-		Me.ComboBox1.TabIndex = 0
 		'
 		'Button1
 		'
@@ -53,7 +46,7 @@ Partial Class Form1
 		'
 		Me.TextBox1.Location = New System.Drawing.Point(85, 195)
 		Me.TextBox1.Name = "TextBox1"
-		Me.TextBox1.Size = New System.Drawing.Size(158, 20)
+		Me.TextBox1.Size = New System.Drawing.Size(211, 20)
 		Me.TextBox1.TabIndex = 2
 		'
 		'Label1
@@ -68,53 +61,83 @@ Partial Class Form1
 		'ListBox1
 		'
 		Me.ListBox1.FormattingEnabled = True
-		Me.ListBox1.Location = New System.Drawing.Point(12, 61)
+		Me.ListBox1.Location = New System.Drawing.Point(85, 12)
 		Me.ListBox1.Name = "ListBox1"
-		Me.ListBox1.Size = New System.Drawing.Size(120, 95)
+		Me.ListBox1.Size = New System.Drawing.Size(211, 95)
 		Me.ListBox1.TabIndex = 4
 		'
 		'Button2
 		'
-		Me.Button2.Location = New System.Drawing.Point(138, 113)
+		Me.Button2.Location = New System.Drawing.Point(85, 113)
 		Me.Button2.Name = "Button2"
 		Me.Button2.Size = New System.Drawing.Size(75, 43)
 		Me.Button2.TabIndex = 5
-		Me.Button2.Text = "Check Selected"
+		Me.Button2.Text = "Start Selected"
 		Me.Button2.UseVisualStyleBackColor = True
+		'
+		'Label2
+		'
+		Me.Label2.AutoSize = True
+		Me.Label2.Location = New System.Drawing.Point(2, 12)
+		Me.Label2.Name = "Label2"
+		Me.Label2.Size = New System.Drawing.Size(51, 13)
+		Me.Label2.TabIndex = 6
+		Me.Label2.Text = "Services:"
+		'
+		'Label3
+		'
+		Me.Label3.AutoSize = True
+		Me.Label3.Location = New System.Drawing.Point(302, 12)
+		Me.Label3.Name = "Label3"
+		Me.Label3.Size = New System.Drawing.Size(40, 13)
+		Me.Label3.TabIndex = 7
+		Me.Label3.Text = "Status:"
+		'
+		'Label4
+		'
+		Me.Label4.AutoSize = True
+		Me.Label4.Location = New System.Drawing.Point(348, 12)
+		Me.Label4.Name = "Label4"
+		Me.Label4.Size = New System.Drawing.Size(39, 13)
+		Me.Label4.TabIndex = 8
+		Me.Label4.Text = "Label4"
 		'
 		'Button3
 		'
-		Me.Button3.Location = New System.Drawing.Point(281, 39)
+		Me.Button3.Location = New System.Drawing.Point(166, 113)
 		Me.Button3.Name = "Button3"
-		Me.Button3.Size = New System.Drawing.Size(110, 23)
-		Me.Button3.TabIndex = 6
-		Me.Button3.Text = "Check Selected"
+		Me.Button3.Size = New System.Drawing.Size(75, 43)
+		Me.Button3.TabIndex = 9
+		Me.Button3.Text = "Stop Selected"
 		Me.Button3.UseVisualStyleBackColor = True
 		'
 		'Form1
 		'
 		Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
 		Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-		Me.ClientSize = New System.Drawing.Size(517, 261)
+		Me.ClientSize = New System.Drawing.Size(724, 261)
 		Me.Controls.Add(Me.Button3)
+		Me.Controls.Add(Me.Label4)
+		Me.Controls.Add(Me.Label3)
+		Me.Controls.Add(Me.Label2)
 		Me.Controls.Add(Me.Button2)
 		Me.Controls.Add(Me.ListBox1)
 		Me.Controls.Add(Me.Label1)
 		Me.Controls.Add(Me.TextBox1)
 		Me.Controls.Add(Me.Button1)
-		Me.Controls.Add(Me.ComboBox1)
 		Me.Name = "Form1"
 		Me.Text = "Form1"
 		Me.ResumeLayout(False)
 		Me.PerformLayout()
 
 	End Sub
-
-	Friend WithEvents ComboBox1 As ComboBox
 	Friend WithEvents Button1 As Button
 	Friend WithEvents TextBox1 As TextBox
 	Friend WithEvents Label1 As Label
 	Friend WithEvents ListBox1 As ListBox
 	Friend WithEvents Button2 As Button
+	Friend WithEvents Label2 As Label
+	Friend WithEvents Label3 As Label
+	Friend WithEvents Label4 As Label
 	Friend WithEvents Button3 As Button
 End Class
