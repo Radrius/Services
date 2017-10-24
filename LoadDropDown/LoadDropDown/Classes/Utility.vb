@@ -18,18 +18,18 @@ Public Class Utility
 			Directory.CreateDirectory(Path & "\Log\")
 		End If
 
-		Dim LogPath As String = Path + "\Log\" & _DateString & "_RollBackError.log"
+		Dim LogPath As String = Path + "\Log\" & _DateString & "_ServicesError.log"
 
 
 		If Not File.Exists(LogPath) Then
 			Using writer As StreamWriter = New StreamWriter(LogPath)
-				writer.WriteLine("******************************** RollBack " & version & " ********************************")
+				writer.WriteLine("******************************** Services " & version & " ********************************")
 				writer.WriteLine(_DateTimeString)
 				writer.WriteLine(exception & line)
 			End Using
 		Else
 			Using writer As StreamWriter = File.AppendText(LogPath)
-				writer.WriteLine("******************************** RollBack " & version & " ********************************")
+				writer.WriteLine("******************************** Services " & version & " ********************************")
 				writer.WriteLine(_DateTimeString)
 				writer.WriteLine(exception & line)
 			End Using
