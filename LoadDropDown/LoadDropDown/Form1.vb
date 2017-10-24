@@ -12,8 +12,9 @@ Public Class Form1
 			ListBox1.Items.Add(r.Item("ServiceName"))
 		Next
 
-		ListBox1.SelectedIndex = 0
 		ComboBox1.SelectedIndex = 0
+		ListBox1.SelectedIndex = 0
+
 
 	End Sub
 
@@ -81,4 +82,24 @@ Public Class Form1
 		End If
 	End Sub
 
+	Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
+
+		Dim SelectedService As Integer = ListBox1.SelectedIndex
+		Dim dt As DataTable = New DataTable
+
+		dt.Columns.Add("ServiceName")
+		For Each i In ListBox1.Items
+			If ListBox1.Items.IndexOf(i) <> SelectedService Then
+				dt.Rows.Add(i)
+			End If
+		Next
+		ListBox1.Items.Clear()
+
+		For Each r As DataRow In dt.Rows
+			ListBox1.Items.Add(r.Item("ServiceName"))
+		Next
+		dt.TableName = "Services"
+		dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
+
+	End Sub
 End Class
