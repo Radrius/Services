@@ -35,6 +35,11 @@ Public Class Form1
 
 		Dim SelectedService As String = ListBox1.SelectedItem.ToString()
 		MessageBox.Show(SelectedService)
+
+		Dim something As Integer = 0
+
+		something = something + 2
+
 	End Sub
 
 	Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
