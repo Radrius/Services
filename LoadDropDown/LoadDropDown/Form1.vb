@@ -1,7 +1,7 @@
 ﻿
 Public Class Form1
 
-	Dim ComputerName As String = Environment.MachineName.ToString() 'using local machine for now, this can be changed to be remote computers
+	'Dim ComputerName As String = Environment.MachineName.ToString() 'using local machine for now, this can be changed to be remote computers
 	Private Sub Form1_Load() Handles MyBase.Load
 
 		Dim dt As DataTable = New DataTable
@@ -13,6 +13,7 @@ Public Class Form1
 		Next
 
 		ListBox1.SelectedIndex = 0
+		ComboBox1.SelectedIndex = 0
 
 	End Sub
 
@@ -36,7 +37,7 @@ Public Class Form1
 	Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
 
 		Dim SelectedService As String = ListBox1.SelectedItem.ToString()
-
+		Dim ComputerName As String = ComboBox1.SelectedItem.ToString()
 
 		Dim StartService As New Services
 		StartService._Start(SelectedService, ComputerName)
@@ -47,7 +48,7 @@ Public Class Form1
 	Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
 
 		Dim SelectedService As String = ListBox1.SelectedItem.ToString()
-
+		Dim ComputerName As String = ComboBox1.SelectedItem.ToString()
 
 		Dim StopService As New Services
 		StopService._Stop(SelectedService, ComputerName)
@@ -64,6 +65,7 @@ Public Class Form1
 
 	Private Sub CheckServices(ByVal SelectedService As String)
 		Dim Result As Integer = Nothing
+		Dim ComputerName As String = ComboBox1.SelectedItem.ToString()
 		Dim CheckService As New Services
 		Result = CheckService._Check(SelectedService, ComputerName)
 
