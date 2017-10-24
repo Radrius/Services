@@ -1,5 +1,4 @@
 ﻿Imports System.ServiceProcess
-
 Public Class Services
 
 	Public Sub _Start(ByVal Service_Name As String, ByVal ComputerName As String)
@@ -33,7 +32,6 @@ Public Class Services
 			Dim line As String = "Line:" & trace.ToString()
 			Dim inner As String = ex.InnerException.ToString()
 			Dim innerAry As String() = inner.Split(":")
-			MessageBox.Show(innerAry(1))
 			Utility.WriteException(ex.ToString, line)
 		End Try
 	End Sub
