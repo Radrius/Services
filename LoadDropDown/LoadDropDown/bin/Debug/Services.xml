@@ -21,4 +21,13 @@
   <Services>
     <ServiceName>Infrared monitor service</ServiceName>
   </Services>
+  <Services>
+    <ServiceName>test</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>test2</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>test3</ServiceName>
+  </Services>
 </NewDataSet>

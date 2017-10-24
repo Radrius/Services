@@ -2,12 +2,12 @@
 Public Class Form1
 
 	Dim ComputerName As String = Environment.MachineName.ToString() 'using local machine for now, this can be changed to be remote computers
-	Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+	Private Sub Form1_Load() Handles MyBase.Load
 
 		Dim dt As DataTable = New DataTable
 		dt.TableName = "Services"
 		dt.ReadXml("Services.xml")
-
+		ListBox1.Items.Clear()
 		For Each r As DataRow In dt.Rows
 			ListBox1.Items.Add(r.Item("ServiceName"))
 		Next
@@ -25,6 +25,7 @@ Public Class Form1
 		If NewService <> "" Then
 			dt.Rows.Add(NewService)
 			dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
+			Form1_Load()
 		Else
 			MessageBox.Show("Please Enter a Service Name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 		End If

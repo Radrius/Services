@@ -1,0 +1,196 @@
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:41
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:41
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:42
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:43
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:44
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:45
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:24:46
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:24
+System.InvalidOperationException: Service test2 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:25
+System.InvalidOperationException: Service test3 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:25
+System.InvalidOperationException: Service test2 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:28
+System.InvalidOperationException: Service test2 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:28
+System.InvalidOperationException: Service test3 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:29
+System.InvalidOperationException: Service test2 was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
+******************************** Services 1.0.0.0 ********************************
+10-24-2017 11:26:29
+System.InvalidOperationException: Service test was not found on computer '20-0003'. ---> System.ComponentModel.Win32Exception: The specified service does not exist as an installed service
+   --- End of inner exception stack trace ---
+   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41Line:   at System.ServiceProcess.ServiceController.GenerateNames()
+   at System.ServiceProcess.ServiceController.get_ServiceName()
+   at System.ServiceProcess.ServiceController.GenerateStatus()
+   at System.ServiceProcess.ServiceController.get_Status()
+   at LoadDropDown.Services._Check(String Service_Name, String ComputerName) in D:\Libraries\Documents\GitHub\Services\LoadDropDown\LoadDropDown\Classes\Services.vb:line 41
+
