@@ -1,0 +1,36 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:MainDataTable="Services" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Services">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="ServiceName" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Services>
+    <ServiceName>Store_Combo</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>Store_ComboVersion</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>Store_ItemReference</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>Store_MenuItem</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>a new service</ServiceName>
+  </Services>
+  <Services>
+    <ServiceName>tabernak</ServiceName>
+  </Services>
+</NewDataSet>
