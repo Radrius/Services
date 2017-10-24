@@ -14,6 +14,7 @@ Public Class Services
 		Catch ex As Exception
 			Dim trace = New StackTrace(ex, True).ToString()
 			Dim line As String = "Line:" & trace.ToString()
+			Dim inner As String = ex.InnerException.ToString()
 			Utility.WriteException(ex.ToString, line)
 		End Try
 	End Sub
@@ -30,6 +31,9 @@ Public Class Services
 		Catch ex As Exception
 			Dim trace = New StackTrace(ex, True).ToString()
 			Dim line As String = "Line:" & trace.ToString()
+			Dim inner As String = ex.InnerException.ToString()
+			Dim innerAry As String() = inner.Split(":")
+			MessageBox.Show(innerAry(1))
 			Utility.WriteException(ex.ToString, line)
 		End Try
 	End Sub
