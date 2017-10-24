@@ -73,7 +73,7 @@ Partial Class Form1
 		'
 		Me.Button2.Location = New System.Drawing.Point(98, 113)
 		Me.Button2.Name = "Button2"
-		Me.Button2.Size = New System.Drawing.Size(61, 43)
+		Me.Button2.Size = New System.Drawing.Size(75, 43)
 		Me.Button2.TabIndex = 5
 		Me.Button2.Text = "Start Selected"
 		Me.Button2.UseVisualStyleBackColor = True
@@ -107,7 +107,7 @@ Partial Class Form1
 		'
 		'Button3
 		'
-		Me.Button3.Location = New System.Drawing.Point(165, 113)
+		Me.Button3.Location = New System.Drawing.Point(179, 113)
 		Me.Button3.Name = "Button3"
 		Me.Button3.Size = New System.Drawing.Size(63, 43)
 		Me.Button3.TabIndex = 9
@@ -135,9 +135,9 @@ Partial Class Form1
 		'
 		'Button4
 		'
-		Me.Button4.Location = New System.Drawing.Point(234, 113)
+		Me.Button4.Location = New System.Drawing.Point(248, 113)
 		Me.Button4.Name = "Button4"
-		Me.Button4.Size = New System.Drawing.Size(58, 43)
+		Me.Button4.Size = New System.Drawing.Size(61, 43)
 		Me.Button4.TabIndex = 12
 		Me.Button4.Text = "Remove Selected"
 		Me.Button4.UseVisualStyleBackColor = True

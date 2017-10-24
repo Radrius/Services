@@ -101,5 +101,7 @@ Public Class Form1
 		dt.TableName = "Services"
 		dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
 
+		Form1_Load()
+
 	End Sub
 End Class
