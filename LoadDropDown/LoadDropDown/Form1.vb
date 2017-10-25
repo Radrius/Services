@@ -13,7 +13,10 @@ Public Class Form1
 		Next
 
 		ComboBox1.SelectedIndex = 0
-		ListBox1.SelectedIndex = 0
+		If ListBox1.Items.Count > 0 Then
+			ListBox1.SelectedIndex = 0
+		End If
+
 
 
 	End Sub
@@ -24,14 +27,23 @@ Public Class Form1
 		dt.TableName = "Services"
 		dt.ReadXml("Services.xml")
 		Dim NewService As String = TextBox1.Text
+		Dim ComputerName As String = ComboBox1.SelectedItem.ToString()
+		Dim AvailableService As New Services
+		Dim result As Boolean = False
+
 		If NewService <> "" Then
-			dt.Rows.Add(NewService)
-			dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
-			Form1_Load()
+
+			result = AvailableService._AvailableServices(NewService, ComputerName)
+
+			If result = True Then
+				dt.Rows.Add(NewService)
+				dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
+				Form1_Load()
+			End If
+
 		Else
 			MessageBox.Show("Please Enter a Service Name", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 		End If
-
 
 	End Sub
 

@@ -18,4 +18,7 @@
   <Services>
     <ServiceName>Fax</ServiceName>
   </Services>
+  <Services>
+    <ServiceName>AdobeARMservice</ServiceName>
+  </Services>
 </NewDataSet>

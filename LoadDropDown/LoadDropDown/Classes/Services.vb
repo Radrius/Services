@@ -11,11 +11,7 @@ Public Class Services
 				'Service is running
 			End If
 		Catch ex As Exception
-			Dim trace = New StackTrace(ex, True).ToString()
-			Dim line As String = "Line:" & trace.ToString()
-			Dim inner As String = ex.InnerException.ToString()
-			Dim innerAry As String() = inner.Split(":")
-			Utility.WriteException(ex.ToString, line)
+			Utility.WriteException(ex)
 		End Try
 	End Sub
 
@@ -29,11 +25,7 @@ Public Class Services
 				'Service is already stopped.
 			End If
 		Catch ex As Exception
-			Dim trace = New StackTrace(ex, True).ToString()
-			Dim line As String = "Line:" & trace.ToString()
-			Dim inner As String = ex.InnerException.ToString()
-			Dim innerAry As String() = inner.Split(":")
-			Utility.WriteException(ex.ToString, line)
+			Utility.WriteException(ex)
 		End Try
 	End Sub
 
@@ -49,12 +41,30 @@ Public Class Services
 				Return 2
 			End If
 		Catch ex As Exception
-			Dim trace = New StackTrace(ex, True).ToString()
-			Dim line As String = "Line:" & trace.ToString()
-			Dim inner As String = ex.InnerException.ToString()
-			Dim innerAry As String() = inner.Split(":")
-			Utility.WriteException(ex.ToString, line)
+			Utility.WriteException(ex)
 			Return 2
+		End Try
+
+	End Function
+
+	Public Function _AvailableServices(ByVal ServiceName As String, ByVal ComputerName As String)
+
+		Try
+			Dim AllServices() As ServiceController
+			AllServices = ServiceController.GetServices()
+
+			For Each s In AllServices
+				If s.ServiceName = ServiceName Then
+
+					Return True
+					Exit For
+				End If
+			Next
+
+			Return False
+		Catch ex As Exception
+			Utility.WriteException(ex)
+			Return False
 		End Try
 
 	End Function
