@@ -55,9 +55,7 @@ Public Class Services
 
 			For Each s In AllServices
 				If s.ServiceName = ServiceName Then
-
 					Return True
-					Exit For
 				End If
 			Next
 
