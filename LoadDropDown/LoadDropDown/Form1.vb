@@ -39,6 +39,8 @@ Public Class Form1
 				dt.Rows.Add(NewService)
 				dt.WriteXml("Services.xml", XmlWriteMode.WriteSchema)
 				Form1_Load()
+			Else
+				MessageBox.Show("That service doesn't exist.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error)
 			End If
 
 		Else
