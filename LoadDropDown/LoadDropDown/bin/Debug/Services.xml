@@ -21,4 +21,7 @@
   <Services>
     <ServiceName>AdobeARMservice</ServiceName>
   </Services>
+  <Services>
+    <ServiceName>TFSDueSoon</ServiceName>
+  </Services>
 </NewDataSet>

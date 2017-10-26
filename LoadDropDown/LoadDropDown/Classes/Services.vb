@@ -33,7 +33,7 @@ Public Class Services
 
 		Dim service As ServiceController = New ServiceController(Service_Name, ComputerName)
 		Try
-			If service.Status.Equals(ServiceControllerStatus.Running) Then
+			If service.Status.Equals(ServiceControllerStatus.Running) Or service.Status.Equals(ServiceControllerStatus.StartPending) Then
 				Return 1
 			ElseIf service.Status.Equals(ServiceControllerStatus.Stopped) Or service.Status.Equals(ServiceControllerStatus.StopPending) Then
 				Return 0
